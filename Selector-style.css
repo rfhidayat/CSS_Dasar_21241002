@@ -1,0 +1,31 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Jika sebuah stule berlaku untuk elemen dapat mengggunakan sparator "," artinya AND */
+h1,
+h2 {
+  color: green;
+}
+
+/* Jika element yang sama ingin menggunakan style yang berbeda gunakan sparator "<space>" artinya DIDALAM */
+ul li a {
+  color: aqua;
+}
+
+ol li a {
+  color: blueviolet;
+}
+
+/* penggunaan id([dipanggil dengan "#")dan class (diganti dengan ",") sebagai selector dalam element HTML */
+#p1 {
+  color: rebeccapurple;
+}
+
+.p2 {
+  font-weight: bold;
+}
+
+p .cetak-tebal {
+  font-size: xx-small;
+}

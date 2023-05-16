@@ -1,0 +1,10 @@
+body {
+    font-family: Arial;
+  }
+  h1 {
+    color: lightblue;
+  }
+  p {
+    line-height: 1.6em;
+    color: grey;
+  }
