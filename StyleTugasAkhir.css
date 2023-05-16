@@ -1,0 +1,65 @@
+* {
+  font-family: "Courier New", Courier, monospace;
+  font-variant: normal;
+  font-style: normal;
+  margin: 30px;
+}
+
+#judul {
+  text-transform: uppercase;
+  text-align: center;
+  color: brown;
+}
+
+#penulis {
+  text-decoration: underline;
+  letter-spacing: 1px;
+  color: silver;
+  font-size: 15px;
+}
+
+p {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  font-style: normal;
+  text-align: justify;
+  line-height: 1.6em;
+  text-indent: 5%;
+}
+
+ol li {
+  color: brown;
+}
+
+body {
+  background-color: black;
+  background-image: url(img/Auz2Kx89-wallha.com.jpg);
+  background-repeat: repeat;
+  background-position: center center;
+}
+
+table thead #colom {
+  background-color: black;
+  color: white;
+}
+
+table thead #colom:active {
+  background-color: brown;
+}
+
+table tbody .baris1 {
+  background-color: gray;
+}
+
+table tbody .baris1:hover {
+  background-color: white;
+}
+
+table tbody .baris2:hover {
+  background-color: gray;
+}
+
+p .link:visited {
+  color: gray;
+}
